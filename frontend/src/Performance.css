@@ -1,0 +1,38 @@
+.performance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topic-list li {
+  margin-bottom: 15px;
+}
+
+.topic-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.success-text { color: #10b981; }
+.warning-text { color: #f59e0b; }
+.danger-text { color: #ef4444; }
+
+.success-bg { background-color: #10b981 !important; }
+.warning-bg { background-color: #f59e0b !important; }
+.danger-bg { background-color: #ef4444 !important; }
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
